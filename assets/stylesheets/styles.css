@@ -512,7 +512,7 @@ section {background: var(--light-color);}
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: var(--menu-color);
+    color: var(--text-color);
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
