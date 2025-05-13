@@ -349,6 +349,11 @@ img:hover {
   animation: animate-preloader 1.5s linear infinite;
 }
 
+.breadcrumbs li, .breadcrumbs nav ol li+li::before {
+    color: #fff;
+}
+
+
 @-webkit-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -3250,8 +3255,8 @@ dl, ol, ul {
   display: block;
   margin-bottom: 15px;
 }
-.with-errors{
-  color: #dc3545;
+.with-errors, .with-errors *{
+  color: #dc3545 !important;
 }
 
 .messages {
